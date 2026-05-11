@@ -2,7 +2,7 @@
 from abc import ABC, abstractmethod
 import logging
 
-# Clase Abstracta General (Requisito: Clase abstracta que represente entidades generales)
+# Clase Abstracta General 
 class EntidadBase(ABC):
     def __init__(self, id_entidad):
         self.id_entidad = id_entidad
@@ -11,7 +11,7 @@ class EntidadBase(ABC):
     def obtener_detalles(self):
         pass
 
-# Clase Cliente (Requisito: Validaciones robustas y encapsulación)
+# Clase Cliente 
 class Cliente(EntidadBase):
     def __init__(self, id_cliente, nombre, email):
         super().__init__(id_cliente)
