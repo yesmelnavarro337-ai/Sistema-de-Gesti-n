@@ -29,7 +29,7 @@ class Reserva:
             raise
 
 def ejecutar_simulacion():
-    print("--- Iniciando Simulación Software FJ (10 Operaciones) ---")
+    print("--- Iniciando Simulacion Sistema Gestion (10 Operaciones) ---")
     servicios = [
         ReservaSalas("S1", "Sala de Juntas", 50000),
         AlquilerEquipos("E1", "Proyector 4K", 30000),
@@ -63,10 +63,10 @@ def ejecutar_simulacion():
         except Exception as e:
             print(f"Resultado: Error inesperado -> {e}")
         finally:
-            # Siempre se ejecuta (Requisito: Bloque finally)
+            # Siempre se ejecuta 
             pass
 
-    print("\n--- Simulación Finalizada. Verifique 'software_fj_logs.txt' ---")
+    print("\n--- Simulación Finalizada. Verifique 'SistemaGestion.txt' ---")
 
 if __name__ == "__main__":
     ejecutar_simulacion()
