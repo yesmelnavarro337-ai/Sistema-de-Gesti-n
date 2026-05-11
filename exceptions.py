@@ -1,7 +1,7 @@
 
 import logging
 
-# Configuración de Logs (Requisito: Archivo de logs para registro de eventos y errores)
+# Configuración de Logs 
 logging.basicConfig(
     filename='software_fj_logs.txt', 
     level=logging.INFO,
