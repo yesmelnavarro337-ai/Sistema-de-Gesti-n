@@ -1,7 +1,7 @@
 
 from abc import ABC, abstractmethod
 
-# Clase Abstracta Servicio (Requisito: Clase abstracta Servicio)
+# Clase Abstracta Servicio 
 class Servicio(ABC):
     def __init__(self, id_servicio, nombre_servicio, precio_base):
         self.id_servicio = id_servicio
