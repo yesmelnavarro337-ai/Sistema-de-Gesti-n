@@ -3,7 +3,7 @@ import logging
 
 # Configuración de Logs 
 logging.basicConfig(
-    filename='software_fj_logs.txt', 
+    filename='SistemaGestion.txt', 
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
